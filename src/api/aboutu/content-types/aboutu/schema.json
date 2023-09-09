@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutus",
+  "info": {
+    "singularName": "aboutu",
+    "pluralName": "aboutus",
+    "displayName": "aboutu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "bannerimgleft": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
