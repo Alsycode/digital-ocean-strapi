@@ -4,7 +4,8 @@
   "info": {
     "singularName": "update",
     "pluralName": "updates",
-    "displayName": "update"
+    "displayName": "update",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,11 +19,15 @@
       "type": "text"
     },
     "updateimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "dated": {
+      "type": "string"
     }
   }
 }
