@@ -24,7 +24,7 @@
       ]
     },
     "bold": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "text"
