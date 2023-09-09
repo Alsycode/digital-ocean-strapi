@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homerightbanners",
+  "info": {
+    "singularName": "homerightbanner",
+    "pluralName": "homerightbanners",
+    "displayName": "homerightbanner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bannerimg": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

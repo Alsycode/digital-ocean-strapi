@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hometenets",
+  "info": {
+    "singularName": "hometenet",
+    "pluralName": "hometenets",
+    "displayName": "hometenet"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "tenetImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
