@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "latestnewsblogs",
+  "info": {
+    "singularName": "latestnewsblog",
+    "pluralName": "latestnewsblogs",
+    "displayName": "latestnewsblog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "explaination": {
+      "type": "text"
+    },
+    "newsimage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
