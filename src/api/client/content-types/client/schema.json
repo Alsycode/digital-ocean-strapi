@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "projects",
+  "collectionName": "clients",
   "info": {
-    "singularName": "project",
-    "pluralName": "projects",
-    "displayName": "project"
+    "singularName": "client",
+    "pluralName": "clients",
+    "displayName": "client"
   },
   "options": {
     "draftAndPublish": true
@@ -14,18 +14,12 @@
     "title": {
       "type": "string"
     },
-    "author": {
-      "type": "string"
-    },
-    "projectimg": {
+    "clientlogo": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false
-    },
-    "category": {
-      "type": "string"
     }
   }
 }

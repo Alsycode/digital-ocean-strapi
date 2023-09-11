@@ -1,31 +1,28 @@
 {
   "kind": "collectionType",
-  "collectionName": "projects",
+  "collectionName": "blogcontents",
   "info": {
-    "singularName": "project",
-    "pluralName": "projects",
-    "displayName": "project"
+    "singularName": "blogcontent",
+    "pluralName": "blogcontents",
+    "displayName": "blogcontent"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "topic": {
       "type": "string"
     },
-    "author": {
-      "type": "string"
+    "explaination": {
+      "type": "text"
     },
-    "projectimg": {
+    "blogphotos": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false
-    },
-    "category": {
-      "type": "string"
     }
   }
 }

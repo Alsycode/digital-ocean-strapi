@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "projects",
+  "collectionName": "blogs",
   "info": {
-    "singularName": "project",
-    "pluralName": "projects",
-    "displayName": "project"
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog"
   },
   "options": {
     "draftAndPublish": true
@@ -14,18 +14,15 @@
     "title": {
       "type": "string"
     },
-    "author": {
+    "position": {
       "type": "string"
     },
-    "projectimg": {
+    "photo": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false
-    },
-    "category": {
-      "type": "string"
     }
   }
 }

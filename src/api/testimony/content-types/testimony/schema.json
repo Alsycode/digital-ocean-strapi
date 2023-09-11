@@ -1,31 +1,31 @@
 {
   "kind": "collectionType",
-  "collectionName": "projects",
+  "collectionName": "testimonies",
   "info": {
-    "singularName": "project",
-    "pluralName": "projects",
-    "displayName": "project"
+    "singularName": "testimony",
+    "pluralName": "testimonies",
+    "displayName": "testimony"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "position": {
       "type": "string"
     },
-    "author": {
+    "name": {
       "type": "string"
     },
-    "projectimg": {
+    "info": {
+      "type": "text"
+    },
+    "photos": {
       "allowedTypes": [
         "images"
       ],
       "type": "media",
       "multiple": false
-    },
-    "category": {
-      "type": "string"
     }
   }
 }
