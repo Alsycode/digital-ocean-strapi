@@ -4,7 +4,8 @@
   "info": {
     "singularName": "testimony",
     "pluralName": "testimonies",
-    "displayName": "testimony"
+    "displayName": "testimony",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -20,12 +21,13 @@
     "info": {
       "type": "text"
     },
-    "photos": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
