@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "page"
+    "displayName": "page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,9 +23,6 @@
       "repeatable": false,
       "component": "shared.seo"
     },
-    "content": {
-      "type": "string"
-    },
     "preventindexing": {
       "type": "boolean"
     },
@@ -32,17 +30,16 @@
       "type": "json"
     },
     "metaimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "block": {
       "type": "dynamiczone",
-      "components": [
-        "shared.images"
-      ]
+      "components": []
     },
     "publish_at": {
       "type": "datetime"
