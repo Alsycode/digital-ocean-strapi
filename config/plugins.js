@@ -13,6 +13,10 @@ module.exports = ({ env }) => ({
           delete: {},
         },
       },
+    }, seo: {
+      enabled: true,
     },
     // ...
   });
+
+ 
