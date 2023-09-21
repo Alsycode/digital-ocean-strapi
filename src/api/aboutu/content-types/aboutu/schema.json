@@ -1,26 +1,20 @@
 {
   "kind": "collectionType",
-  "collectionName": "testimonies",
+  "collectionName": "aboutus",
   "info": {
-    "singularName": "testimony",
-    "pluralName": "testimonies",
-    "displayName": "testimony"
+    "singularName": "aboutu",
+    "pluralName": "aboutus",
+    "displayName": "aboutu"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "position": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "info": {
+    "text": {
       "type": "text"
     },
-    "photos": {
+    "bannerimgleft": {
       "allowedTypes": [
         "images"
       ],
