@@ -31,6 +31,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "projectName": {
+      "type": "string"
     }
   }
 }
