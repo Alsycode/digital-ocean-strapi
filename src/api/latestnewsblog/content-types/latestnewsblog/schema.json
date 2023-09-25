@@ -28,6 +28,9 @@
     },
     "slug": {
       "type": "string"
+    },
+    "date": {
+      "type": "string"
     }
   }
 }

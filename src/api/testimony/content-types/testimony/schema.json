@@ -28,6 +28,9 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "date": {
+      "type": "string"
     }
   }
 }

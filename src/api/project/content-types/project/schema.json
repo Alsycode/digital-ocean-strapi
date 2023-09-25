@@ -34,6 +34,9 @@
     },
     "projectName": {
       "type": "string"
+    },
+    "date": {
+      "type": "string"
     }
   }
 }
