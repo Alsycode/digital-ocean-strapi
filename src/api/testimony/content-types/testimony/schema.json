@@ -31,6 +31,9 @@
     },
     "date": {
       "type": "string"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
