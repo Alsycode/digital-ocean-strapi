@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonial2s",
+  "info": {
+    "singularName": "testimonial2",
+    "pluralName": "testimonial2s",
+    "displayName": "testimonial2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "testimonyText": {
+      "type": "text"
+    }
+  }
+}

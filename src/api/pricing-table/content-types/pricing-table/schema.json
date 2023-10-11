@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_tables",
+  "info": {
+    "singularName": "pricing-table",
+    "pluralName": "pricing-tables",
+    "displayName": "pricingTable"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "head": {
+      "type": "string"
+    },
+    "planName": {
+      "type": "string"
+    },
+    "planicon": {
+      "type": "string"
+    },
+    "planAmount": {
+      "type": "string"
+    },
+    "planfeature1": {
+      "type": "string"
+    },
+    "planfeature2": {
+      "type": "string"
+    },
+    "planfeature3": {
+      "type": "string"
+    },
+    "planfeature4": {
+      "type": "string"
+    },
+    "planfeature5": {
+      "type": "string"
+    },
+    "planfeature6": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutus2s",
+  "info": {
+    "singularName": "aboutus2",
+    "pluralName": "aboutus2s",
+    "displayName": "aboutus2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "head": {
+      "type": "string"
+    },
+    "descript": {
+      "type": "text"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
