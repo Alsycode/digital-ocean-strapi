@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client2s",
+  "info": {
+    "singularName": "client2",
+    "pluralName": "client2s",
+    "displayName": "client2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
