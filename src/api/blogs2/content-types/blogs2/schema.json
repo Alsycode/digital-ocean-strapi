@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blogs2",
     "pluralName": "blogs2s",
-    "displayName": "blogs2"
+    "displayName": "blogs2",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -27,6 +28,20 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "blockquote": {
+      "type": "text"
+    },
+    "image2": {
       "allowedTypes": [
         "images",
         "files",
@@ -35,6 +50,18 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "heading1": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "para1": {
+      "type": "text"
+    },
+    "para2": {
+      "type": "text"
     }
   }
 }
