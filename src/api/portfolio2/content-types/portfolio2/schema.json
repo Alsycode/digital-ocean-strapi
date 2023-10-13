@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolio2s",
+  "info": {
+    "singularName": "portfolio2",
+    "pluralName": "portfolio2s",
+    "displayName": "portfolio2",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "author": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "projectname": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    }
+  }
+}
