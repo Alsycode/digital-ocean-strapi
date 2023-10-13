@@ -22,14 +22,19 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "para": {
       "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true
     }
   }
 }
