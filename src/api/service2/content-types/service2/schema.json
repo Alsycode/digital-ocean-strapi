@@ -33,8 +33,7 @@
       "type": "text"
     },
     "slug": {
-      "type": "uid",
-      "required": true
+      "type": "string"
     }
   }
 }
