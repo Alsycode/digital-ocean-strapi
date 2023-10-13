@@ -4,7 +4,8 @@
   "info": {
     "singularName": "service2",
     "pluralName": "service2s",
-    "displayName": "service2"
+    "displayName": "service2",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,6 +19,16 @@
       "type": "string"
     },
     "serviceDescription": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "para": {
       "type": "text"
     }
   }
