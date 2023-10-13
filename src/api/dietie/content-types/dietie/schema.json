@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dieties",
+  "info": {
+    "singularName": "dietie",
+    "pluralName": "dieties",
+    "displayName": "dietie"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameInEnglish": {
+      "type": "string"
+    },
+    "nameInMalayalam": {
+      "type": "string"
+    },
+    "dietyImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
