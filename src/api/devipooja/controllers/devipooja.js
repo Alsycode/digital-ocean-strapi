@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * pooja controller
+ * devipooja controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::pooja.pooja');
+module.exports = createCoreController('api::devipooja.devipooja');

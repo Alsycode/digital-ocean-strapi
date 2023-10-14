@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devipoojas",
+  "info": {
+    "singularName": "devipooja",
+    "pluralName": "devipoojas",
+    "displayName": "devipooja"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameinmalayalam": {
+      "type": "string",
+      "required": true
+    },
+    "amount": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "nameinenglish": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

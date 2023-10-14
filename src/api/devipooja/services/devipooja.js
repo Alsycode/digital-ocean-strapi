@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * pooja service
+ * devipooja service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::pooja.pooja');
+module.exports = createCoreService('api::devipooja.devipooja');

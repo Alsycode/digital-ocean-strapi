@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * pooja router
+ * devipooja router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::pooja.pooja');
+module.exports = createCoreRouter('api::devipooja.devipooja');
