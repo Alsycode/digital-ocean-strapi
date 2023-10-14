@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poojas",
+  "info": {
+    "singularName": "pooja",
+    "pluralName": "poojas",
+    "displayName": "pooja",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nameinenglish": {
+      "type": "string"
+    },
+    "nameinmalayalam": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
