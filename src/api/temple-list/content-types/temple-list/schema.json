@@ -4,7 +4,8 @@
   "info": {
     "singularName": "temple-list",
     "pluralName": "temple-lists",
-    "displayName": "templeList"
+    "displayName": "templeList",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,14 +22,18 @@
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "district": {
+      "type": "string"
     }
   }
 }
