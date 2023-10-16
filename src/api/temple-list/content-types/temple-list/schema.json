@@ -18,9 +18,6 @@
     "nameinmalayalam": {
       "type": "string"
     },
-    "location": {
-      "type": "string"
-    },
     "image": {
       "type": "media",
       "multiple": true,
