@@ -13,15 +13,17 @@
   "pluginOptions": {},
   "attributes": {
     "nameinenglish": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "nameinmalayalam": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "image": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
@@ -30,10 +32,28 @@
       ]
     },
     "district": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "place": {
-      "type": "string"
+      "type": "string",
+      "required": true
+    },
+    "image1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image2": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
