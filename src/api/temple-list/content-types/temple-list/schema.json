@@ -48,12 +48,15 @@
       ]
     },
     "image2": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "diety": {
+      "type": "string"
     }
   }
 }
