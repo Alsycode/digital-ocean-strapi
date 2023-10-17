@@ -31,6 +31,9 @@
     },
     "district": {
       "type": "string"
+    },
+    "place": {
+      "type": "string"
     }
   }
 }
