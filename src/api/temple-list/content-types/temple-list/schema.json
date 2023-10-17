@@ -57,6 +57,12 @@
     },
     "diety": {
       "type": "string"
+    },
+    "dieties": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dietie.dietie",
+      "inversedBy": "temple_lists"
     }
   }
 }

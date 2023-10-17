@@ -28,6 +28,12 @@
     },
     "slug": {
       "type": "string"
+    },
+    "temple_lists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::temple-list.temple-list",
+      "mappedBy": "dieties"
     }
   }
 }
