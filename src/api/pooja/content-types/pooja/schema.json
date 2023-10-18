@@ -37,6 +37,12 @@
     },
     "nameinmalayalam": {
       "type": "string"
+    },
+    "dieties": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dietie.dietie",
+      "mappedBy": "poojas"
     }
   }
 }

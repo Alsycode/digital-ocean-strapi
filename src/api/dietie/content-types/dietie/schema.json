@@ -35,10 +35,10 @@
       "target": "api::temple-list.temple-list",
       "mappedBy": "dieties"
     },
-    "temples": {
+    "poojas": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::temple-list.temple-list",
+      "target": "api::pooja.pooja",
       "inversedBy": "dieties"
     }
   }

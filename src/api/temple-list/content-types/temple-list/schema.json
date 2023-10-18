@@ -58,17 +58,17 @@
     "diety": {
       "type": "string"
     },
-    "dieties": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::dietie.dietie",
-      "mappedBy": "temples"
-    },
     "poojas": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::pooja.pooja",
       "mappedBy": "temple_lists"
+    },
+    "dieties": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::dietie.dietie",
+      "inversedBy": "temple_lists"
     }
   }
 }
