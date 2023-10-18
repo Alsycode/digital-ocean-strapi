@@ -62,7 +62,13 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::dietie.dietie",
-      "inversedBy": "temple_lists"
+      "mappedBy": "temples"
+    },
+    "poojas": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::pooja.pooja",
+      "mappedBy": "temple_lists"
     }
   }
 }

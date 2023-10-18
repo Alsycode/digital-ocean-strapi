@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poojas",
+  "info": {
+    "singularName": "pooja",
+    "pluralName": "poojas",
+    "displayName": "pooja",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "temple_lists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::temple-list.temple-list",
+      "inversedBy": "poojas"
+    }
+  }
+}
