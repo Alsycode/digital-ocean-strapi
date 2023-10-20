@@ -72,6 +72,21 @@
     },
     "slug": {
       "type": "string"
+    },
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    },
+    "heading1": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    },
+    "description3": {
+      "type": "string"
     }
   }
 }
