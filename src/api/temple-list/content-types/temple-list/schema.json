@@ -87,6 +87,9 @@
     },
     "description3": {
       "type": "text"
+    },
+    "maindiety": {
+      "type": "string"
     }
   }
 }
