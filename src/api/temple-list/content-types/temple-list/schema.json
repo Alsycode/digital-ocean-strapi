@@ -86,7 +86,7 @@
       "type": "string"
     },
     "description3": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
