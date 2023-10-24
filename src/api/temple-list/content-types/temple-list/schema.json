@@ -90,6 +90,12 @@
     },
     "maindiety": {
       "type": "string"
+    },
+    "sevaupdate": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sevaupdate.sevaupdate",
+      "mappedBy": "temple_list"
     }
   }
 }
