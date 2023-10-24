@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sevaupdate",
     "pluralName": "sevaupdates",
-    "displayName": "sevaupdate"
+    "displayName": "sevaupdate",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -18,17 +19,21 @@
       "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "temple_list": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::temple-list.temple-list",
       "inversedBy": "sevaupdate"
+    },
+    "date": {
+      "type": "string"
     }
   }
 }
