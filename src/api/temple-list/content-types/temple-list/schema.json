@@ -104,6 +104,9 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.diety"
+    },
+    "Content": {
+      "type": "richtext"
     }
   }
 }
