@@ -96,6 +96,14 @@
       "relation": "oneToOne",
       "target": "api::sevaupdate.sevaupdate",
       "mappedBy": "temple_list"
+    },
+    "maindevatha": {
+      "type": "string"
+    },
+    "dietyy": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.diety"
     }
   }
 }

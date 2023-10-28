@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shared_dieties",
+  "info": {
+    "displayName": "diety",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nameinenglish": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "nameinmalayalam": {
+      "type": "string"
+    },
+    "poooja": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.poojas"
+    }
+  }
+}

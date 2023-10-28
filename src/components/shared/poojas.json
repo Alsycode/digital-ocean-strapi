@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_poojas",
+  "info": {
+    "displayName": "poojas"
+  },
+  "options": {},
+  "attributes": {
+    "nameinenglish": {
+      "type": "string"
+    },
+    "nameinmalayalam": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "poojaimage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

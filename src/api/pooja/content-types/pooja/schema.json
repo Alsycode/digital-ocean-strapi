@@ -43,6 +43,9 @@
       "relation": "manyToMany",
       "target": "api::dietie.dietie",
       "mappedBy": "poojas"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
