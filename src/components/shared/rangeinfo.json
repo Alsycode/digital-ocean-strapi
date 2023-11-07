@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_rangeinfos",
+  "info": {
+    "displayName": "rangeinfo",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "rangelabel": {
+      "type": "string"
+    },
+    "rangepercent": {
+      "type": "string"
+    }
+  }
+}

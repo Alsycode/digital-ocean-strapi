@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service2details",
+  "info": {
+    "singularName": "service2detail",
+    "pluralName": "service2details",
+    "displayName": "service2detail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "textContent": {
+      "type": "richtext"
+    },
+    "Wideimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "videoid": {
+      "type": "string"
+    },
+    "rangeitem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.rangeinfo"
+    }
+  }
+}
