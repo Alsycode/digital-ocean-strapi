@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_shared_bullets",
+  "info": {
+    "displayName": "bullets"
+  },
+  "options": {},
+  "attributes": {
+    "bullet": {
+      "type": "text"
+    }
+  }
+}

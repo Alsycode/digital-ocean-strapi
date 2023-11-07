@@ -4,7 +4,8 @@
   "info": {
     "singularName": "aboutus2component",
     "pluralName": "aboutus2components",
-    "displayName": "aboutus2component"
+    "displayName": "aboutus2component",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,11 +13,12 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "title": {
       "type": "string"
@@ -24,8 +26,10 @@
     "text": {
       "type": "text"
     },
-    "bullets": {
-      "type": "text"
+    "bullet": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.bullets"
     }
   }
 }
