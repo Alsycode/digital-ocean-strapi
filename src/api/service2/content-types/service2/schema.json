@@ -34,6 +34,24 @@
     },
     "slug": {
       "type": "string"
+    },
+    "Wideimage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "textContent": {
+      "type": "richtext"
+    },
+    "videoid": {
+      "type": "string"
+    },
+    "rangeitem": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.rangeinfo"
     }
   }
 }
