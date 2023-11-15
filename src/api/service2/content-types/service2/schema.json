@@ -36,11 +36,12 @@
       "type": "string"
     },
     "Wideimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "textContent": {
       "type": "richtext"
@@ -50,7 +51,7 @@
     },
     "rangeitem": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "shared.rangeinfo"
     }
   }
