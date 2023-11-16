@@ -4,7 +4,8 @@
   "info": {
     "singularName": "team2",
     "pluralName": "team2s",
-    "displayName": "team2"
+    "displayName": "team2",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,20 +16,21 @@
       "type": "string"
     },
     "designation": {
-      "type": "string"
+      "type": "text"
     },
     "description": {
       "type": "string"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
