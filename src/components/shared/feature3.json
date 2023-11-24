@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_feature3s",
+  "info": {
+    "displayName": "feature3"
+  },
+  "options": {},
+  "attributes": {
+    "feature": {
+      "displayName": "feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature"
+    },
+    "featureImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

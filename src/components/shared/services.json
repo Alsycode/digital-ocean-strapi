@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_services",
+  "info": {
+    "displayName": "services",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "detaileddescription": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "brouchurelinks": {
+      "type": "string"
+    },
+    "companyinfolinks": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service3s",
+  "info": {
+    "singularName": "service3",
+    "pluralName": "service3s",
+    "displayName": "service3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "feature": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.feature3"
+    },
+    "serviceitems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.services"
+    }
+  }
+}
